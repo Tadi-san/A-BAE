@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="seller.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.ejs">Buyer</a></li>
+            <li><a href="seller.ejs">Seller</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        </header>
+    <section class="compose" >
+            <form class="container" name="form" method="post" action="/index.ejs">
+            <input name="discription" type="text" placeholder="write a short discription and uplode a picture">
+            <!-- <input name = "image" type="file" placeholder="drop the image here"> -->
+            <button class="btn" name="submit" type="submit"> + </button>
+        </form>
+        
+    </section>
+</body>
+</html>
